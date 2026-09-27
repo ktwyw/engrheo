@@ -1,0 +1,31 @@
+# Aqueous polymer solution (2 wt% polyethylene oxide), 25 degC, cone-plate. Two tests in one file:
+# 'oscillatory' rows: angular frequency (rad/s) and complex viscosity |eta*| (Pa s);
+# 'steady' rows: shear rate (1/s) and steady shear viscosity (Pa s).
+test,rate_or_frequency,viscosity_Pa_s
+oscillatory,0.1,5.4549
+oscillatory,0.17783,5.4539
+oscillatory,0.31623,5.2667
+oscillatory,0.56234,4.9101
+oscillatory,1,4.043
+oscillatory,1.7783,3.0823
+oscillatory,3.1623,2.3004
+oscillatory,5.6234,1.8653
+oscillatory,10,1.3421
+oscillatory,17.783,1.013
+oscillatory,31.623,0.65365
+oscillatory,56.234,0.46686
+oscillatory,100,0.33917
+oscillatory,177.83,0.23025
+oscillatory,316.23,0.1466
+steady,0.31623,5.277
+steady,0.65793,4.8111
+steady,1.3689,3.7123
+steady,2.848,2.4367
+steady,5.9255,1.7809
+steady,12.328,1.2231
+steady,25.65,0.78656
+steady,53.367,0.48304
+steady,111.03,0.31904
+steady,231.01,0.18286
+steady,480.64,0.1022
+steady,1000,0.067712

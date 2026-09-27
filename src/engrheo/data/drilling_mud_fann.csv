@@ -1,0 +1,9 @@
+# Water-based drilling fluid, 49 degC (120 degF), Fann 35 six-speed viscometer (R1 rotor-B1 bob-F1 spring),
+# dial readings as recorded by the technician (to the nearest half degree). Columns: rotor speed (rpm), dial reading (deg).
+rpm,dial_reading_deg
+600,61.5
+300,43.5
+200,36.0
+100,27.0
+6,13.0
+3,12.0

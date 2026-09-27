@@ -1,0 +1,19 @@
+# Cornstarch in water (about 44 vol%), 22 degC, stress-controlled, sandblasted plates. Steady flow curve.
+# Columns: shear rate (1/s), viscosity (Pa s).
+shear_rate_1_s,viscosity_Pa_s
+0.1,3.715
+0.1423,3.612
+0.2026,3.25
+0.2884,2.776
+0.4105,2.758
+0.5843,2.414
+0.8318,2.023
+1.184,1.96
+1.685,1.663
+2.399,1.699
+3.415,1.773
+4.86,2.486
+6.918,5.03
+9.848,16
+14.02,54.72
+19.95,201.5

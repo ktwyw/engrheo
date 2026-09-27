@@ -1,0 +1,13 @@
+# Molten milk chocolate, 40 degC, concentric cylinders, increasing shear rate 2-50 1/s after pre-shear.
+# Columns: shear rate (1/s), shear stress (Pa).
+shear_rate_1_s,shear_stress_Pa
+2,30.489
+2.86,34.966
+4.09,41.212
+5.85,48.925
+8.36,59.602
+11.96,70.978
+17.1,86.41
+24.45,113.18
+34.97,143.49
+50,187.92

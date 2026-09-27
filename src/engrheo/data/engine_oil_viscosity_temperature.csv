@@ -1,0 +1,16 @@
+# Multigrade engine oil, dynamic viscosity at low shear rate between 0 and 120 degC.
+# Columns: temperature (degC), viscosity (Pa s).
+temperature_C,viscosity_Pa_s
+0.0,1.0109
+10.0,0.4576
+20.0,0.23553
+30.0,0.13071
+40.0,0.080264
+50.0,0.050705
+60.0,0.034085
+70.0,0.023861
+80.0,0.017648
+90.0,0.013592
+100.0,0.010305
+110.0,0.0082605
+120.0,0.0068596

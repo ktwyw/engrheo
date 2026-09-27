@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use engrheo in your work, please cite it as below."
+title: "engrheo: rheology for engineers in Python"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Yanwei
+    email: wangyanwei@gmail.com
+    orcid: "https://orcid.org/0000-0002-8488-9833"
+    website: "https://github.com/ktwyw"
+version: 0.1.0
+date-released: "2026-09-27"
+license: MIT
+repository-code: "https://github.com/ktwyw/engrheo"
+keywords:
+  - rheology
+  - non-Newtonian fluids
+  - viscoelasticity
+  - rheometry
+  - engineering education
+abstract: >-
+  Readable, validated Python for engineering rheology - flow-curve models and fitting with uncertainties,
+  rheometer corrections, time-temperature superposition, linear and nonlinear viscoelasticity (spectra,
+  Giesekus and PTT models, LAOS), thixotropy, suspensions, extensional rheology, and pipe flow, mixing
+  and extrusion of non-Newtonian fluids - checked against exact solutions, with an 18-notebook course and
+  worked solutions for students and practising engineers.
