@@ -11,6 +11,8 @@
 [![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
 [![ORCID](https://img.shields.io/badge/ORCID-0000--0002--8488--9833-a6ce39)](https://orcid.org/0000-0002-8488-9833)
 
+<img src="docs/images/laos.gif" width="640" alt="Large-amplitude oscillatory shear of a Giesekus fluid: the Lissajous curve and the stress waveform as the strain amplitude grows">
+
 </div>
 
 `engrheo` covers the rheology engineers need in practice - from what a rheometer really measures and how
@@ -31,8 +33,6 @@ print(fit)                                                 # eta0, eta_inf, lamb
 print(flows.pipe_hb(tau_y=600, K=45, n=1.0, R=0.0625, Q=30 / 3600))
 ```
 
-<p align="center"><img src="docs/figures/gallery.png" alt="Flow curves of the classical models, laminar pipe-flow profiles, a frequency sweep of a Maxwell spectrum, Giesekus start-up overshoot, LAOS Lissajous curves and thixotropic hysteresis loops computed with engrheo" width="900"></p>
-<p align="center"><sub>Six results computed by the library (regenerate with <code>python tools/make_readme_figures.py</code>): flow curves, pipe-flow profiles with a yield-stress plug, G' and G'' of a Maxwell spectrum, Giesekus stress overshoot, LAOS Lissajous curves, thixotropic hysteresis loops.</sub></p>
 
 ## Why engrheo?
 
@@ -97,6 +97,16 @@ solution in [`solutions/`](solutions). They open in Google Colab and install `en
 **Learning paths:** undergraduate core 00-04, 07, 08, 15 · graduate: all, emphasis 05, 09-14 ·
 industry: polymers 03, 05, 08, 09, 10, 12, 16 · food and consumer 03, 04, 06, 08, 11, 13, 17 ·
 oil and gas 03, 04, 06, 15 · construction and slurries 04, 06, 13, 15.
+
+## Gallery
+
+Every image is computed by the library; `python tools/make_images.py` regenerates them.
+
+| | |
+|:-:|:-:|
+| <img src="docs/images/flow_curves.png" width="400"><br>Flow curves of the classical models | <img src="docs/images/pipe_profiles.png" width="400"><br>Pipe-flow profiles: the yield-stress plug |
+| <img src="docs/images/frequency_sweep.png" width="400"><br>G' and G'' of a four-mode Maxwell spectrum | <img src="docs/images/startup_overshoot.png" width="400"><br>Giesekus start-up: the overshoot grows with Wi |
+| <img src="docs/images/lissajous.png" width="400"><br>LAOS Lissajous curves from linear to strongly nonlinear | <img src="docs/images/thixotropy_loop.png" width="400"><br>Thixotropic hysteresis loops at two ramp rates |
 
 ## Install
 
