@@ -31,6 +31,9 @@ print(fit)                                                 # eta0, eta_inf, lamb
 print(flows.pipe_hb(tau_y=600, K=45, n=1.0, R=0.0625, Q=30 / 3600))
 ```
 
+<p align="center"><img src="docs/figures/gallery.png" alt="Flow curves of the classical models, laminar pipe-flow profiles, a frequency sweep of a Maxwell spectrum, Giesekus start-up overshoot, LAOS Lissajous curves and thixotropic hysteresis loops computed with engrheo" width="900"></p>
+<p align="center"><sub>Six results computed by the library (regenerate with <code>python tools/make_readme_figures.py</code>): flow curves, pipe-flow profiles with a yield-stress plug, G' and G'' of a Maxwell spectrum, Giesekus stress overshoot, LAOS Lissajous curves, thixotropic hysteresis loops.</sub></p>
+
 ## Why engrheo?
 
 - **Measurement and analysis, not only models.** Rheometer conversions and corrections (Weissenberg-Rabinowitsch,
